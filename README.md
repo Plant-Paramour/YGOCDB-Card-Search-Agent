@@ -15,7 +15,7 @@
 ### 1. 核心组件
 - **MCP客户端 (mcp_client.py)**: 实现与YGOCDB API的直接通信
 - **卡片查询模块 (card_query.py)**: 封装搜索和获取卡片详情的业务逻辑
-- **渲染输出模块 (output_renderer.py)**: 负责美化输出格式，提升用户体验
+- **渲染输出模块 (output_renderer.py)**: 输出卡面详细信息
 - **智能对话引擎 (main.py)**: 基于LLM的对话协调器
 - **配置管理**: 通过config.json文件管理API密钥和模型配置
 
